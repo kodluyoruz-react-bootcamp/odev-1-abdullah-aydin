@@ -1,0 +1,26 @@
+{
+  "name": "odev-1-abdullah-aydin",
+  "version": "1.0.0",
+  "description": "İstanbul Earlybird Front-End Talent Bootcamp 1. Hafta Ödevi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-abdullah-aydin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "execMap":{
+    "js": "node -r sucrase/register"
+  }
+}
