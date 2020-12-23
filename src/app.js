@@ -1,3 +1,3 @@
 import getData from "./lib/service"
 
-getData(1000)
+getData(1)
